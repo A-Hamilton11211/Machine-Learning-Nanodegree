@@ -13405,7 +13405,7 @@ Standard deviation of prices: $165171.13154429477
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> I would consider this model to have <em>very</em> successfully captured variation of the target variable.  Essentially what the R<sup>2</sup> score is telling us here is that, when comparing the predicted versus true values, our model is such that 92.3% of the variance in Y can be predicted using X given the model that we have.  This means that our model is very, very good at predicting variations in Y given different X inputs.</p>
+<p><strong>Answer:</strong> I would consider this model to have <em>very</em> successfully captured variation of the target variable.  What R<sup>2</sup> measures is the goodness of fit of a model by taking the squared correlation of a models predictions of a target variable with the actual values of the target variable itself.  If a model works well and provides good predictions, we'd expect the correlation between prediction and actual to be very strong, and in the case of R<sup>2</sup> this strength is measured on a fixed scale of 0 to 1, and since this model has an R<sup>2</sup> of 0.923, we have a very strong correlation indeed.  This also means that, when graphed, our model will have an exceptionally good fit, which is another way of saying that our model predictions and the actual values, will be very close to one another and have a very small error.  This means that our model is very, very good at predicting variations in Y given different X inputs.</p>
 
 </div>
 </div>
